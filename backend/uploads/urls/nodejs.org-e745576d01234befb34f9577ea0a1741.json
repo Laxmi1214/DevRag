@@ -1,0 +1,10 @@
+{
+  "metadata": {
+    "url": "https://nodejs.org/docs/latest/api/",
+    "title": "Index | Node.js v26.1.0 Documentation",
+    "description": "",
+    "crawled_at": "2026-05-10T07:46:46.572124+00:00"
+  },
+  "content": "Index\n#\nAbout this documentation\nUsage and example\nAssertion testing\nAsynchronous context tracking\nAsync hooks\nBuffer\nC++ addons\nC/C++ addons with Node-API\nC++ embedder API\nChild processes\nCluster\nCommand-line options\nConsole\nCrypto\nDebugger\nDeprecated APIs\nDiagnostics Channel\nDNS\nDomain\nEnvironment Variables\nErrors\nEvents\nFile system\nFFI\nGlobals\nHTTP\nHTTP/2\nHTTPS\nInspector\nInternationalization\nIterable Streams API\nModules: CommonJS modules\nModules: ECMAScript modules\nModules:\nnode:module\nAPI\nModules: Packages\nModules: TypeScript\nNet\nOS\nPath\nPerformance hooks\nPermissions\nProcess\nPunycode\nQuery strings\nReadline\nREPL\nReport\nSingle executable applications\nSQLite\nStream\nString decoder\nTest runner\nTimers\nTLS/SSL\nTrace events\nTTY\nUDP/datagram\nURL\nUtilities\nV8\nVM\nWASI\nWeb Crypto API\nWeb Streams API\nWorker threads\nZlib\nCode repository and issue tracker",
+  "total_characters": 856
+}

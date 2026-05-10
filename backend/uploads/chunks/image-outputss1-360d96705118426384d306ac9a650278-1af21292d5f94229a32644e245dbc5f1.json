@@ -1,0 +1,32 @@
+{
+  "source_type": "image",
+  "source_id": "outputss1-360d96705118426384d306ac9a650278.jpg",
+  "source_name": "outputss1.jpeg",
+  "upload_id": "81041d3c4ca34332a3bde6f7b901ac1c",
+  "metadata": {
+    "filename": "outputss1.jpeg",
+    "stored_filename": "outputss1-360d96705118426384d306ac9a650278.jpg",
+    "source_name": "outputss1.jpeg",
+    "upload_id": "81041d3c4ca34332a3bde6f7b901ac1c"
+  },
+  "chunk_count": 1,
+  "chunk_size": 1000,
+  "chunk_overlap": 150,
+  "created_at": "2026-05-10T12:13:17.941598+00:00",
+  "chunks": [
+    {
+      "id": "image-3edc95a401f4465aafb3f9929d2671c2",
+      "chunk_index": 0,
+      "text": "2 ? 0\nChennai weather forecast\nWhat should I wear in Bangalore today?\nWorking\nGet current weather\nClaude wants to use Get current weather from weather-global\nAlways allow\nDeny esc\nAllow once Ctrly\nWrite a message\nSonnet 4.6\nClaude is Al and; can make mistakes: Please double-check responses\n1449\nType here to search\n32*C\nD @ 4 ENG 08-05-2026",
+      "character_count": 341,
+      "metadata": {
+        "filename": "outputss1.jpeg",
+        "stored_filename": "outputss1-360d96705118426384d306ac9a650278.jpg",
+        "source_name": "outputss1.jpeg",
+        "upload_id": "81041d3c4ca34332a3bde6f7b901ac1c",
+        "source_type": "image",
+        "source_id": "outputss1-360d96705118426384d306ac9a650278.jpg"
+      }
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "source_type": "url",
+  "source_id": "react.dev-9c023429a0b144b49d2bbec39e54c162.json",
+  "metadata": {
+    "url": "https://react.dev/learn",
+    "title": "Quick Start \u2013 React",
+    "stored_filename": "react.dev-9c023429a0b144b49d2bbec39e54c162.json"
+  },
+  "chunk_count": 15,
+  "chunk_size": 1000,
+  "chunk_overlap": 150,
+  "created_at": "2026-05-10T05:10:56.337989+00:00",
+  "chunks": [
+    {
+      "id": "url-76b617a57f5646f2bb3511a70f6be795",
+      "chunk_index": 0,
+      "text": "Learn React\nQuick Start\nWelcome to the React documentation! This page will give you an introduction to 80% of the React concepts that you will use on a daily basis.\nYou will learn\nHow to create and nest components\nHow to add markup and styles\nHow to display data\nHow to render conditions and lists\nHow to respond to events and update the screen\nHow to share data between components\nCreating and nesting components\nReact apps are made out of\ncomponents\n. A component is a piece of the UI (user interface) that has its own logic and appearance. A component can be as small as a button, or as large as an entire page.\nReact components are JavaScript functions that return markup:\nfunction\nMyButton\n(\n)\n{\nreturn\n(\n<\nbutton\n>\nI'm a button\n</\nbutton\n>\n)\n;\n}\nNow that you\u2019ve declared\nMyButton\n, you can nest it into another component:\nexport\ndefault\nfunction\nMyApp\n(\n)\n{\nreturn\n(\n<\ndiv\n>\n<\nh1\n>\nWelcome to my app\n</\nh1\n>\n<\nMyButton\n/>\n</\ndiv\n>\n)\n;\n}\nNotice that\n<MyButton />",
+      "character_count": 967,
+      "metadata": {
+        "url": "https://react.dev/learn",
+        "title": "Quick Start \u2013 React",
+        "stored_filename": "react.dev-9c023429a0b144b49d2bbec39e54c162.json",
+        "source_type": "url",
+        "source_id": "react.dev-9c023429a0b144b49d2bbec39e54c162.json"
+      }
+    },
+    {
+      "id": "url-18a8c646bc6c4155be97b767dc2c2b6c",
+      "chunk_index": 1,
+      "text": "export\ndefault\nfunction\nMyApp\n(\n)\n{\nreturn\n(\n<\ndiv\n>\n<\nh1\n>\nWelcome to my app\n</\nh1\n>\n<\nMyButton\n/>\n</\ndiv\n>\n)\n;\n}\nNotice that\n<MyButton />\nstarts with a capital letter. That\u2019s how you know it\u2019s a React component. React component names must always start with a capital letter, while HTML tags must be lowercase.\nHave a look at the result:\nFork\nfunction\nMyButton\n(\n)\n{\nreturn\n(\n<\nbutton\n>\nI'm a button\n</\nbutton\n>\n)\n;\n}\nexport\ndefault\nfunction\nMyApp\n(\n)\n{\nreturn\n(\n<\ndiv\n>\n<\nh1\n>\nWelcome to my app\n</\nh1\n>\n<\nMyButton\n/>\n</\ndiv\n>\n)\n;\n}\nThe\nexport default\nkeywords specify the main component in the file. If you\u2019re not familiar with some piece of JavaScript syntax,\nMDN\nand\njavascript.info\nhave great references.\nWriting markup with JSX\nThe markup syntax you\u2019ve seen above is called\nJSX\n. It is optional, but most React projects use JSX for its convenience. All of the\ntools we recommend for local development\nsupport JSX out of the box.\nJSX is stricter than HTML. You have to close tags like\n<br />",
+      "character_count": 996,
+      "metadata": {
+        "url": "https://react.dev/learn",
+        "title": "Quick Start \u2013 React",
+        "stored_filename": "react.dev-9c023429a0b144b49d2bbec39e54c162.json",
+        "source_type": "url",
+        "source_id": "react.dev-9c023429a0b144b49d2bbec39e54c162.json"
+      }
+    },
+    {
+      "id": "url-65b0876c8d414082a7cd8983a2631688",
+      "chunk_index": 2,
+      "text": "tools we recommend for local development\nsupport JSX out of the box.\nJSX is stricter than HTML. You have to close tags like\n<br />\n. Your component also can\u2019t return multiple JSX tags. You have to wrap them into a shared parent, like a\n<div>...</div>\nor an empty\n<>...</>\nwrapper:\nfunction\nAboutPage\n(\n)\n{\nreturn\n(\n<\n>\n<\nh1\n>\nAbout\n</\nh1\n>\n<\np\n>\nHello there.\n<\nbr\n/>\nHow do you do?\n</\np\n>\n</\n>\n)\n;\n}\nIf you have a lot of HTML to port to JSX, you can use an\nonline converter.\nAdding styles\nIn React, you specify a CSS class with\nclassName\n. It works the same way as the HTML\nclass\nattribute:\n<\nimg\nclassName\n=\n\"avatar\"\n/>\nThen you write the CSS rules for it in a separate CSS file:\n/* In your CSS */\n.avatar\n{\nborder-radius\n:\n50\n%\n;\n}\nReact does not prescribe how you add CSS files. In the simplest case, you\u2019ll add a\n<link>\ntag to your HTML. If you use a build tool or a framework, consult its documentation to learn how to add a CSS file to your project.\nDisplaying data",
+      "character_count": 971,
+      "metadata": {
+        "url": "https://react.dev/learn",
+        "title": "Quick Start \u2013 React",
+        "stored_filename": "react.dev-9c023429a0b144b49d2bbec39e54c162.json",
+        "source_type": "url",
+        "source_id": "react.dev-9c023429a0b144b49d2bbec39e54c162.json"
+      }
+    },
+    {
+      "id": "url-daa839f9fe18449eb17f4a562f80bff4",
+      "chunk_index": 3,
+      "text": "tag to your HTML. If you use a build tool or a framework, consult its documentation to learn how to add a CSS file to your project.\nDisplaying data\nJSX lets you put markup into JavaScript. Curly braces let you \u201cescape back\u201d into JavaScript so that you can embed some variable from your code and display it to the user. For example, this will display\nuser.name\n:\nreturn\n(\n<\nh1\n>\n{\nuser\n.\nname\n}\n</\nh1\n>\n)\n;\nYou can also \u201cescape into JavaScript\u201d from JSX attributes, but you have to use curly braces\ninstead of\nquotes. For example,\nclassName=\"avatar\"\npasses the\n\"avatar\"\nstring as the CSS class, but\nsrc={user.imageUrl}\nreads the JavaScript\nuser.imageUrl\nvariable value, and then passes that value as the\nsrc\nattribute:\nreturn\n(\n<\nimg\nclassName\n=\n\"avatar\"\nsrc\n=\n{\nuser\n.\nimageUrl\n}\n/>\n)\n;\nYou can put more complex expressions inside the JSX curly braces too, for example,\nstring concatenation\n:\nFork\nconst\nuser\n=\n{\nname\n:\n'Hedy Lamarr'\n,\nimageUrl\n:",
+      "character_count": 946,
+      "metadata": {
+        "url": "https://react.dev/learn",
+        "title": "Quick Start \u2013 React",
+        "stored_filename": "react.dev-9c023429a0b144b49d2bbec39e54c162.json",
+        "source_type": "url",
+        "source_id": "react.dev-9c023429a0b144b49d2bbec39e54c162.json"
+      }
+    },
+    {
+      "id": "url-be5158d1d3be4c828b6c7322d1153633",
+      "chunk_index": 4,
+      "text": "string concatenation\n:\nFork\nconst\nuser\n=\n{\nname\n:\n'Hedy Lamarr'\n,\nimageUrl\n:\n'https://react.dev/images/docs/scientists/yXOvdOSs.jpg'\n,\nimageSize\n:\n90\n,\n}\n;\nexport\ndefault\nfunction\nProfile\n(\n)\n{\nreturn\n(\n<\n>\n<\nh1\n>\n{\nuser\n.\nname\n}\n</\nh1\n>\n<\nimg\nclassName\n=\n\"avatar\"\nsrc\n=\n{\nuser\n.\nimageUrl\n}\nalt\n=\n{\n'Photo of '\n+\nuser\n.\nname\n}\nstyle\n=\n{\nwidth\n:\nuser\n.\nimageSize\n,\nheight\n:\nuser\n.\nimageSize\n}\n/>\n</\n>\n)\n;\n}\nIn the above example,\nstyle={{}}\nis not a special syntax, but a regular\n{}\nobject inside the\nstyle={ }\nJSX curly braces. You can use the\nstyle\nattribute when your styles depend on JavaScript variables.\nConditional rendering\nIn React, there is no special syntax for writing conditions. Instead, you\u2019ll use the same techniques as you use when writing regular JavaScript code. For example, you can use an\nif\nstatement to conditionally include JSX:\nlet\ncontent\n;\nif\n(\nisLoggedIn\n)\n{\ncontent\n=\n<\nAdminPanel\n/>\n;\n}\nelse\n{\ncontent\n=\n<\nLoginForm\n/>\n;\n}\nreturn\n(\n<\ndiv\n>\n{\ncontent\n}\n</\ndiv\n>\n)\n;",
+      "character_count": 992,
+      "metadata": {
+        "url": "https://react.dev/learn",
+        "title": "Quick Start \u2013 React",
+        "stored_filename": "react.dev-9c023429a0b144b49d2bbec39e54c162.json",
+        "source_type": "url",
+        "source_id": "react.dev-9c023429a0b144b49d2bbec39e54c162.json"
+      }
+    },
+    {
+      "id": "url-77ce8c3701474738a49be5acb7d413e1",
+      "chunk_index": 5,
+      "text": "let\ncontent\n;\nif\n(\nisLoggedIn\n)\n{\ncontent\n=\n<\nAdminPanel\n/>\n;\n}\nelse\n{\ncontent\n=\n<\nLoginForm\n/>\n;\n}\nreturn\n(\n<\ndiv\n>\n{\ncontent\n}\n</\ndiv\n>\n)\n;\nIf you prefer more compact code, you can use the\nconditional\n?\noperator.\nUnlike\nif\n, it works inside JSX:\n<\ndiv\n>\n{\nisLoggedIn\n?\n(\n<\nAdminPanel\n/>\n)\n:\n(\n<\nLoginForm\n/>\n)\n}\n</\ndiv\n>\nWhen you don\u2019t need the\nelse\nbranch, you can also use a shorter\nlogical\n&&\nsyntax\n:\n<\ndiv\n>\n{\nisLoggedIn\n&&\n<\nAdminPanel\n/>\n}\n</\ndiv\n>\nAll of these approaches also work for conditionally specifying attributes. If you\u2019re unfamiliar with some of this JavaScript syntax, you can start by always using\nif...else\n.\nRendering lists\nYou will rely on JavaScript features like\nfor\nloop\nand the\narray\nmap()\nfunction\nto render lists of components.\nFor example, let\u2019s say you have an array of products:\nconst\nproducts\n=\n[\n{\ntitle\n:\n'Cabbage'\n,\nid\n:\n1\n}\n,\n{\ntitle\n:\n'Garlic'\n,\nid\n:\n2\n}\n,\n{\ntitle\n:\n'Apple'\n,\nid\n:\n3\n}\n,\n]\n;\nInside your component, use the\nmap()",
+      "character_count": 969,
+      "metadata": {
+        "url": "https://react.dev/learn",
+        "title": "Quick Start \u2013 React",
+        "stored_filename": "react.dev-9c023429a0b144b49d2bbec39e54c162.json",
+        "source_type": "url",
+        "source_id": "react.dev-9c023429a0b144b49d2bbec39e54c162.json"
+      }
+    },
+    {
+      "id": "url-b63f5b759dbd4be5a8b7a066c0c207e4",
+      "chunk_index": 6,
+      "text": "products\n=\n[\n{\ntitle\n:\n'Cabbage'\n,\nid\n:\n1\n}\n,\n{\ntitle\n:\n'Garlic'\n,\nid\n:\n2\n}\n,\n{\ntitle\n:\n'Apple'\n,\nid\n:\n3\n}\n,\n]\n;\nInside your component, use the\nmap()\nfunction to transform an array of products into an array of\n<li>\nitems:\nconst\nlistItems\n=\nproducts\n.\nmap\n(\nproduct\n=>\n<\nli\nkey\n=\n{\nproduct\n.\nid\n}\n>\n{\nproduct\n.\ntitle\n}\n</\nli\n>\n)\n;\nreturn\n(\n<\nul\n>\n{\nlistItems\n}\n</\nul\n>\n)\n;\nNotice how\n<li>\nhas a\nkey\nattribute. For each item in a list, you should pass a string or a number that uniquely identifies that item among its siblings. Usually, a key should be coming from your data, such as a database ID. React uses your keys to know what happened if you later insert, delete, or reorder the items.\nFork\nconst\nproducts\n=\n[\n{\ntitle\n:\n'Cabbage'\n,\nisFruit\n:\nfalse\n,\nid\n:\n1\n}\n,\n{\ntitle\n:\n'Garlic'\n,\nisFruit\n:\nfalse\n,\nid\n:\n2\n}\n,\n{\ntitle\n:\n'Apple'\n,\nisFruit\n:\ntrue\n,\nid\n:\n3\n}\n,\n]\n;\nexport\ndefault\nfunction\nShoppingList\n(\n)\n{\nconst\nlistItems\n=\nproducts\n.\nmap\n(\nproduct\n=>\n<\nli\nkey\n=\n{\nproduct\n.\nid\n}\nstyle\n=\n{",
+      "character_count": 994,
+      "metadata": {
+        "url": "https://react.dev/learn",
+        "title": "Quick Start \u2013 React",
+        "stored_filename": "react.dev-9c023429a0b144b49d2bbec39e54c162.json",
+        "source_type": "url",
+        "source_id": "react.dev-9c023429a0b144b49d2bbec39e54c162.json"
+      }
+    },
+    {
+      "id": "url-3d4e41f159c6448fa8a64d540e17c57f",
+      "chunk_index": 7,
+      "text": "true\n,\nid\n:\n3\n}\n,\n]\n;\nexport\ndefault\nfunction\nShoppingList\n(\n)\n{\nconst\nlistItems\n=\nproducts\n.\nmap\n(\nproduct\n=>\n<\nli\nkey\n=\n{\nproduct\n.\nid\n}\nstyle\n=\n{\ncolor\n:\nproduct\n.\nisFruit\n?\n'magenta'\n:\n'darkgreen'\n}\n>\n{\nproduct\n.\ntitle\n}\n</\nli\n>\n)\n;\nreturn\n(\n<\nul\n>\n{\nlistItems\n}\n</\nul\n>\n)\n;\n}\nResponding to events\nYou can respond to events by declaring\nevent handler\nfunctions inside your components:\nfunction\nMyButton\n(\n)\n{\nfunction\nhandleClick\n(\n)\n{\nalert\n(\n'You clicked me!'\n)\n;\n}\nreturn\n(\n<\nbutton\nonClick\n=\n{\nhandleClick\n}\n>\nClick me\n</\nbutton\n>\n)\n;\n}\nNotice how\nonClick={handleClick}\nhas no parentheses at the end! Do not\ncall\nthe event handler function: you only need to\npass it down\n. React will call your event handler when the user clicks the button.\nUpdating the screen\nOften, you\u2019ll want your component to \u201cremember\u201d some information and display it. For example, maybe you want to count the number of times a button is clicked. To do this, add\nstate\nto your component.\nFirst, import\nuseState",
+      "character_count": 991,
+      "metadata": {
+        "url": "https://react.dev/learn",
+        "title": "Quick Start \u2013 React",
+        "stored_filename": "react.dev-9c023429a0b144b49d2bbec39e54c162.json",
+        "source_type": "url",
+        "source_id": "react.dev-9c023429a0b144b49d2bbec39e54c162.json"
+      }
+    },
+    {
+      "id": "url-a8c3947e8a414554ae8eeaf5299e7c28",
+      "chunk_index": 8,
+      "text": "state\nto your component.\nFirst, import\nuseState\nfrom React:\nimport\n{\nuseState\n}\nfrom\n'react'\n;\nNow you can declare a\nstate variable\ninside your component:\nfunction\nMyButton\n(\n)\n{\nconst\n[\ncount\n,\nsetCount\n]\n=\nuseState\n(\n0\n)\n;\n// ...\nYou\u2019ll get two things from\nuseState\n: the current state (\ncount\n), and the function that lets you update it (\nsetCount\n). You can give them any names, but the convention is to write\n[something, setSomething]\n.\nThe first time the button is displayed,\ncount\nwill be\n0\nbecause you passed\n0\nto\nuseState()\n. When you want to change state, call\nsetCount()\nand pass the new value to it. Clicking this button will increment the counter:\nfunction\nMyButton\n(\n)\n{\nconst\n[\ncount\n,\nsetCount\n]\n=\nuseState\n(\n0\n)\n;\nfunction\nhandleClick\n(\n)\n{\nsetCount\n(\ncount\n+\n1\n)\n;\n}\nreturn\n(\n<\nbutton\nonClick\n=\n{\nhandleClick\n}\n>\nClicked\n{\ncount\n}\ntimes\n</\nbutton\n>\n)\n;\n}\nReact will call your component function again. This time,\ncount\nwill be\n1\n. Then it will be\n2\n. And so on.",
+      "character_count": 979,
+      "metadata": {
+        "url": "https://react.dev/learn",
+        "title": "Quick Start \u2013 React",
+        "stored_filename": "react.dev-9c023429a0b144b49d2bbec39e54c162.json",
+        "source_type": "url",
+        "source_id": "react.dev-9c023429a0b144b49d2bbec39e54c162.json"
+      }
+    },
+    {
+      "id": "url-c05c9332acbb4508a29d7cd8a857c887",
+      "chunk_index": 9,
+      "text": "Clicked\n{\ncount\n}\ntimes\n</\nbutton\n>\n)\n;\n}\nReact will call your component function again. This time,\ncount\nwill be\n1\n. Then it will be\n2\n. And so on.\nIf you render the same component multiple times, each will get its own state. Click each button separately:\nFork\nimport\n{\nuseState\n}\nfrom\n'react'\n;\nexport\ndefault\nfunction\nMyApp\n(\n)\n{\nreturn\n(\n<\ndiv\n>\n<\nh1\n>\nCounters that update separately\n</\nh1\n>\n<\nMyButton\n/>\n<\nMyButton\n/>\n</\ndiv\n>\n)\n;\n}\nfunction\nMyButton\n(\n)\n{\nconst\n[\ncount\n,\nsetCount\n]\n=\nuseState\n(\n0\n)\n;\nfunction\nhandleClick\n(\n)\n{\nsetCount\n(\ncount\n+\n1\n)\n;\n}\nreturn\n(\n<\nbutton\nonClick\n=\n{\nhandleClick\n}\n>\nClicked\n{\ncount\n}\ntimes\n</\nbutton\n>\n)\n;\n}\nNotice how each button \u201cremembers\u201d its own\ncount\nstate and doesn\u2019t affect other buttons.\nUsing Hooks\nFunctions starting with\nuse\nare called\nHooks\n.\nuseState\nis a built-in Hook provided by React. You can find other built-in Hooks in the\nAPI reference.\nYou can also write your own Hooks by combining the existing ones.",
+      "character_count": 968,
+      "metadata": {
+        "url": "https://react.dev/learn",
+        "title": "Quick Start \u2013 React",
+        "stored_filename": "react.dev-9c023429a0b144b49d2bbec39e54c162.json",
+        "source_type": "url",
+        "source_id": "react.dev-9c023429a0b144b49d2bbec39e54c162.json"
+      }
+    },
+    {
+      "id": "url-6065f1b469414e1f92c2f940214cf16e",
+      "chunk_index": 10,
+      "text": "API reference.\nYou can also write your own Hooks by combining the existing ones.\nHooks are more restrictive than other functions. You can only call Hooks\nat the top\nof your components (or other Hooks). If you want to use\nuseState\nin a condition or a loop, extract a new component and put it there.\nSharing data between components\nIn the previous example, each\nMyButton\nhad its own independent\ncount\n, and when each button was clicked, only the\ncount\nfor the button clicked changed:\nInitially, each\nMyButton\n\u2019s\ncount\nstate is\n0\nThe first\nMyButton\nupdates its\ncount\nto\n1\nHowever, often you\u2019ll need components to\nshare data and always update together\n.\nTo make both\nMyButton\ncomponents display the same\ncount\nand update together, you need to move the state from the individual buttons \u201cupwards\u201d to the closest component containing all of them.\nIn this example, it is\nMyApp\n:\nInitially,\nMyApp\n\u2019s\ncount\nstate is\n0\nand is passed down to both children\nOn click,\nMyApp\nupdates its\ncount\nstate to\n1",
+      "character_count": 989,
+      "metadata": {
+        "url": "https://react.dev/learn",
+        "title": "Quick Start \u2013 React",
+        "stored_filename": "react.dev-9c023429a0b144b49d2bbec39e54c162.json",
+        "source_type": "url",
+        "source_id": "react.dev-9c023429a0b144b49d2bbec39e54c162.json"
+      }
+    },
+    {
+      "id": "url-2b44479d32a74e00a8d13e936172b10e",
+      "chunk_index": 11,
+      "text": "In this example, it is\nMyApp\n:\nInitially,\nMyApp\n\u2019s\ncount\nstate is\n0\nand is passed down to both children\nOn click,\nMyApp\nupdates its\ncount\nstate to\n1\nand passes it down to both children\nNow when you click either button, the\ncount\nin\nMyApp\nwill change, which will change both of the counts in\nMyButton\n. Here\u2019s how you can express this in code.\nFirst,\nmove the state up\nfrom\nMyButton\ninto\nMyApp\n:\nexport\ndefault\nfunction\nMyApp\n(\n)\n{\nconst\n[\ncount\n,\nsetCount\n]\n=\nuseState\n(\n0\n)\n;\nfunction\nhandleClick\n(\n)\n{\nsetCount\n(\ncount\n+\n1\n)\n;\n}\nreturn\n(\n<\ndiv\n>\n<\nh1\n>\nCounters that update separately\n</\nh1\n>\n<\nMyButton\n/>\n<\nMyButton\n/>\n</\ndiv\n>\n)\n;\n}\nfunction\nMyButton\n(\n)\n{\n// ... we're moving code from here ...\n}\nThen,\npass the state down\nfrom\nMyApp\nto each\nMyButton\n, together with the shared click handler. You can pass information to\nMyButton\nusing the JSX curly braces, just like you previously did with built-in tags like\n<img>\n:\nexport\ndefault\nfunction\nMyApp\n(\n)\n{\nconst\n[\ncount\n,\nsetCount\n]\n=\nuseState",
+      "character_count": 998,
+      "metadata": {
+        "url": "https://react.dev/learn",
+        "title": "Quick Start \u2013 React",
+        "stored_filename": "react.dev-9c023429a0b144b49d2bbec39e54c162.json",
+        "source_type": "url",
+        "source_id": "react.dev-9c023429a0b144b49d2bbec39e54c162.json"
+      }
+    },
+    {
+      "id": "url-a7709409b4a849739c4de33b1c61721c",
+      "chunk_index": 12,
+      "text": "<img>\n:\nexport\ndefault\nfunction\nMyApp\n(\n)\n{\nconst\n[\ncount\n,\nsetCount\n]\n=\nuseState\n(\n0\n)\n;\nfunction\nhandleClick\n(\n)\n{\nsetCount\n(\ncount\n+\n1\n)\n;\n}\nreturn\n(\n<\ndiv\n>\n<\nh1\n>\nCounters that update together\n</\nh1\n>\n<\nMyButton\ncount\n=\n{\ncount\n}\nonClick\n=\n{\nhandleClick\n}\n/>\n<\nMyButton\ncount\n=\n{\ncount\n}\nonClick\n=\n{\nhandleClick\n}\n/>\n</\ndiv\n>\n)\n;\n}\nThe information you pass down like this is called\nprops\n. Now the\nMyApp\ncomponent contains the\ncount\nstate and the\nhandleClick\nevent handler, and\npasses both of them down as props\nto each of the buttons.\nFinally, change\nMyButton\nto\nread\nthe props you have passed from its parent component:\nfunction\nMyButton\n(\n{\ncount\n,\nonClick\n}\n)\n{\nreturn\n(\n<\nbutton\nonClick\n=\n{\nonClick\n}\n>\nClicked\n{\ncount\n}\ntimes\n</\nbutton\n>\n)\n;\n}\nWhen you click the button, the\nonClick\nhandler fires. Each button\u2019s\nonClick\nprop was set to the\nhandleClick\nfunction inside\nMyApp\n, so the code inside of it runs. That code calls\nsetCount(count + 1)\n, incrementing the\ncount",
+      "character_count": 978,
+      "metadata": {
+        "url": "https://react.dev/learn",
+        "title": "Quick Start \u2013 React",
+        "stored_filename": "react.dev-9c023429a0b144b49d2bbec39e54c162.json",
+        "source_type": "url",
+        "source_id": "react.dev-9c023429a0b144b49d2bbec39e54c162.json"
+      }
+    },
+    {
+      "id": "url-26e4cad0c5ba4ad5a1525961943aeed7",
+      "chunk_index": 13,
+      "text": "prop was set to the\nhandleClick\nfunction inside\nMyApp\n, so the code inside of it runs. That code calls\nsetCount(count + 1)\n, incrementing the\ncount\nstate variable. The new\ncount\nvalue is passed as a prop to each button, so they all show the new value. This is called \u201clifting state up\u201d. By moving state up, you\u2019ve shared it between components.\nFork\nimport\n{\nuseState\n}\nfrom\n'react'\n;\nexport\ndefault\nfunction\nMyApp\n(\n)\n{\nconst\n[\ncount\n,\nsetCount\n]\n=\nuseState\n(\n0\n)\n;\nfunction\nhandleClick\n(\n)\n{\nsetCount\n(\ncount\n+\n1\n)\n;\n}\nreturn\n(\n<\ndiv\n>\n<\nh1\n>\nCounters that update together\n</\nh1\n>\n<\nMyButton\ncount\n=\n{\ncount\n}\nonClick\n=\n{\nhandleClick\n}\n/>\n<\nMyButton\ncount\n=\n{\ncount\n}\nonClick\n=\n{\nhandleClick\n}\n/>\n</\ndiv\n>\n)\n;\n}\nfunction\nMyButton\n(\n{\ncount\n,\nonClick\n}\n)\n{\nreturn\n(\n<\nbutton\nonClick\n=\n{\nonClick\n}\n>\nClicked\n{\ncount\n}\ntimes\n</\nbutton\n>\n)\n;\n}\nNext Steps\nBy now, you know the basics of how to write React code!\nCheck out the\nTutorial\nto put them into practice and build your first mini-app with React.",
+      "character_count": 998,
+      "metadata": {
+        "url": "https://react.dev/learn",
+        "title": "Quick Start \u2013 React",
+        "stored_filename": "react.dev-9c023429a0b144b49d2bbec39e54c162.json",
+        "source_type": "url",
+        "source_id": "react.dev-9c023429a0b144b49d2bbec39e54c162.json"
+      }
+    },
+    {
+      "id": "url-3b8ec404f823415bb15fa4d863883c4e",
+      "chunk_index": 14,
+      "text": "By now, you know the basics of how to write React code!\nCheck out the\nTutorial\nto put them into practice and build your first mini-app with React.\nNext\nTutorial: Tic-Tac-Toe",
+      "character_count": 173,
+      "metadata": {
+        "url": "https://react.dev/learn",
+        "title": "Quick Start \u2013 React",
+        "stored_filename": "react.dev-9c023429a0b144b49d2bbec39e54c162.json",
+        "source_type": "url",
+        "source_id": "react.dev-9c023429a0b144b49d2bbec39e54c162.json"
+      }
+    }
+  ]
+}

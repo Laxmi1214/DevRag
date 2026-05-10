@@ -1,0 +1,63 @@
+{
+  "source_type": "pdf",
+  "source_id": "Lakshmi_Priya_A_drive-2-1-a08657a523844280a4a49e4251db9fea.pdf",
+  "source_name": "Lakshmi_Priya_A_drive (2) (1).pdf",
+  "upload_id": "b33c1d430ddd470fbb3da562b02c23b9",
+  "metadata": {
+    "filename": "Lakshmi_Priya_A_drive (2) (1).pdf",
+    "stored_filename": "Lakshmi_Priya_A_drive-2-1-a08657a523844280a4a49e4251db9fea.pdf",
+    "source_name": "Lakshmi_Priya_A_drive (2) (1).pdf",
+    "upload_id": "b33c1d430ddd470fbb3da562b02c23b9"
+  },
+  "chunk_count": 3,
+  "chunk_size": 1000,
+  "chunk_overlap": 150,
+  "created_at": "2026-05-10T13:19:05.656984+00:00",
+  "chunks": [
+    {
+      "id": "pdf-12742aabc7df47c68d6a150c67ae146c",
+      "chunk_index": 0,
+      "text": "Lakshmi Priya A \nMadurai, TN | arasupriya044@gmail.com | +91 94884 16566 | LinkedIn | Github | Portfolio \nCAREER OBJECTIVE \nAspiring Software Engineer skilled in MERN Stack, Java, and AI-integrated applications. Passionate about building \nscalable real-world solutions and improving problem-solving skills. \nTECHNICAL SKILLS \n \nProgramming Languages: Java, Python, JavaScript \nTools & APIs: REST APIs, Groq API, OpenWeather API, FastMCP \nWeb Development: MongoDB, Express.js, React.js, Node.js. \nVersion Control: Git, GitHub. \nDatabase: MySQL, MongoDB. \nOther Skills: Communication, Teamwork, Problem Solving, Time Management. \nPROJECTS \n \nWeatherMind AI \u2013 MCP-Powered Weather Intelligence Agent \nPython | FastMCP | Claude Desktop | OpenWeather API | HTTPX \nGitHub: https://github.com/Laxmi1214/WeatherMind-AI-MCP-Powered-Weather-Intelligence-Agent \n \n-\u200b\nBuilt an AI-powered weather assistant using FastMCP, Claude Desktop, and OpenWeather APIs to provide",
+      "character_count": 955,
+      "metadata": {
+        "filename": "Lakshmi_Priya_A_drive (2) (1).pdf",
+        "stored_filename": "Lakshmi_Priya_A_drive-2-1-a08657a523844280a4a49e4251db9fea.pdf",
+        "source_name": "Lakshmi_Priya_A_drive (2) (1).pdf",
+        "upload_id": "b33c1d430ddd470fbb3da562b02c23b9",
+        "page_number": 1,
+        "source_type": "pdf",
+        "source_id": "Lakshmi_Priya_A_drive-2-1-a08657a523844280a4a49e4251db9fea.pdf"
+      }
+    },
+    {
+      "id": "pdf-b0c39988ce9f42a2a86df9efe1cb751d",
+      "chunk_index": 1,
+      "text": "-\u200b\nBuilt an AI-powered weather assistant using FastMCP, Claude Desktop, and OpenWeather APIs to provide \nreal-time weather, AQI, and forecast-based intelligent responses. \n-\u200b\nDesigned an MCP tool-based architecture where Claude dynamically analyzes structured external weather \ndata using asynchronous Python API communication instead of relying on fixed hardcoded chatbot logic. \n \nDressCrush - AI-Based Fashion Recommendation System \nGenerative AI | Groq API | MERN Stack | REST APIs \nGitHub: https://github.com/Laxmi1214/fashion-ai \n-\u200b\nDeveloped an AI-powered fashion recommendation system using Generative AI and Groq APIs to \ngenerate personalized suggestions through dynamic data processing and intelligent response generation. \n-\u200b\nBuilt backend workflows for API handling, data processing and validation to improve AI response accuracy and \ngenerate meaningful outputs from data provided by the user. \nEDUCATION",
+      "character_count": 918,
+      "metadata": {
+        "filename": "Lakshmi_Priya_A_drive (2) (1).pdf",
+        "stored_filename": "Lakshmi_Priya_A_drive-2-1-a08657a523844280a4a49e4251db9fea.pdf",
+        "source_name": "Lakshmi_Priya_A_drive (2) (1).pdf",
+        "upload_id": "b33c1d430ddd470fbb3da562b02c23b9",
+        "page_number": 1,
+        "source_type": "pdf",
+        "source_id": "Lakshmi_Priya_A_drive-2-1-a08657a523844280a4a49e4251db9fea.pdf"
+      }
+    },
+    {
+      "id": "pdf-253f9f5adac64e0ea30471d2e2b748d9",
+      "chunk_index": 2,
+      "text": "generate meaningful outputs from data provided by the user. \nEDUCATION \nMangayarkarasi College of Engineering , Bachelor of Engineering in Computer Science Engineering\u200b2022 \u2013 2026 \n \nCGPA : 8.15 / 10.0 \nCoursework : Data Structures & Algorithms, Operating Systems, Database Management, Computer Networks, Web \nTechnologies, Object-Oriented Programming. \nCERTIFICATIONS \n \nOracle - Oracle Cloud Infrastructure 2025 Certified AI foundation Associate \nHCL Guvi - Python Zero to Hero \nUdemy - The complete Full-Stack Web Development Bootcamp",
+      "character_count": 537,
+      "metadata": {
+        "filename": "Lakshmi_Priya_A_drive (2) (1).pdf",
+        "stored_filename": "Lakshmi_Priya_A_drive-2-1-a08657a523844280a4a49e4251db9fea.pdf",
+        "source_name": "Lakshmi_Priya_A_drive (2) (1).pdf",
+        "upload_id": "b33c1d430ddd470fbb3da562b02c23b9",
+        "page_number": 1,
+        "source_type": "pdf",
+        "source_id": "Lakshmi_Priya_A_drive-2-1-a08657a523844280a4a49e4251db9fea.pdf"
+      }
+    }
+  ]
+}

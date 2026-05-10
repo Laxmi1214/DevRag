@@ -1,0 +1,49 @@
+{
+  "source_type": "pdf",
+  "source_id": "sample.pdf",
+  "metadata": {
+    "filename": "sample.pdf"
+  },
+  "chunk_count": 3,
+  "chunk_size": 1000,
+  "chunk_overlap": 150,
+  "created_at": "2026-05-10T04:30:11.640730+00:00",
+  "chunks": [
+    {
+      "id": "pdf-c5fcc0e7d63443d78d2efcef26e3709e",
+      "chunk_index": 0,
+      "text": "Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma",
+      "character_count": 988,
+      "metadata": {
+        "filename": "sample.pdf",
+        "page_number": 1,
+        "source_type": "pdf",
+        "source_id": "sample.pdf"
+      }
+    },
+    {
+      "id": "pdf-30fe651b18e7428c928988055c0cf1d5",
+      "chunk_index": 1,
+      "text": ". Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma",
+      "character_count": 990,
+      "metadata": {
+        "filename": "sample.pdf",
+        "page_number": 1,
+        "source_type": "pdf",
+        "source_id": "sample.pdf"
+      }
+    },
+    {
+      "id": "pdf-4360ac4c2fbd4b339da6813a14c112f4",
+      "chunk_index": 2,
+      "text": ". Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma. Alpha beta gamma.",
+      "character_count": 469,
+      "metadata": {
+        "filename": "sample.pdf",
+        "page_number": 1,
+        "source_type": "pdf",
+        "source_id": "sample.pdf"
+      }
+    }
+  ]
+}
