@@ -160,7 +160,7 @@ where={"upload_id": active_upload_id}
 - PDF questions retrieve PDF chunks only
 - React documentation questions retrieve React chunks only
 - no cross-source contamination occurs
-- ⚠️ Engineering Challenge Solved
+- Engineering Challenge Solved
 - Retrieval Contamination Problem
 - Issue
 
@@ -290,12 +290,10 @@ Retrieved chunks are sent to Gemini API to generate contextual grounded answers.
 
 ## 📸 Screenshots
 
-Add:
-
 ## Home Page
 <img width="1600" height="697" alt="WhatsApp Image 2026-05-10 at 7 27 43 PM" src="https://github.com/user-attachments/assets/e9e59a1e-7217-472c-a649-b11e0d18ecce" />
-## Upload Dashboard
 
+## Upload Dashboard
 <img width="1600" height="705" alt="WhatsApp Image 2026-05-10 at 7 28 09 PM" src="https://github.com/user-attachments/assets/2f0531e1-7c71-4fa7-9793-642fae72a1cc" />
 
 <img width="1600" height="709" alt="WhatsApp Image 2026-05-10 at 7 28 34 PM" src="https://github.com/user-attachments/assets/7cb724e2-670e-4f53-88b4-62874f0440f9" />
